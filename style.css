@@ -1,0 +1,140 @@
+/* BEGIN (write your solution here) */
+@font-face {
+    font-weight: 400;
+    font-family: "Rubik";
+    src: url(../assets/fonts/Rubik-Regular.woff2);
+  }
+  
+  @font-face {
+    font-weight: 700;
+    font-family: "Rubik";
+    src: url(../assets/fonts/Rubik-Bold.woff2);
+  }
+  
+  /* END */
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  
+    /* BEGIN (write your solution here) */
+  
+    color: #fff;
+    font-size: 16px;
+    line-height: 1;
+    font-family: "Rubik";
+    background: #e5e5e5;
+    /* END */
+  }
+  
+  /* BEGIN (write your solution here) */
+  .calendar {
+    width: 250px;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    background: #1e1f25;
+    border-radius: 12px;
+  }
+  
+  .calendar-header {
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .calendar-date {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    line-height: 2;
+    border-bottom: #313131 solid 1px;
+    width: 100%;
+  }
+  
+  .calendar-date tbody {
+    color: #ccc;
+    text-align: center;
+  }
+  
+  .calendar-date td {
+    padding: 0;
+    line-height: 2.3;
+    cursor: pointer;
+  }
+  
+  .calendar-date td:hover {
+    background-color: rgb(11, 22, 39);
+    border-radius: 50%;
+  }
+  
+  .calendar-date td:active {
+    background-color: rgb(35, 77, 140);
+    border-radius: 50%;
+  }
+  
+  .todo-name {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .todo-time {
+    color: #ccc;
+    font-size: 10px;
+  }
+  
+  .calendar-todo {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+  }
+  /* END */
+  
+  .rounded-green {
+    color: #fff;
+  
+    background: #589c5f;
+    border-radius: 50%;
+  }
+
+  tbody .null-date:hover {
+    background-color: #1e1f25;
+    cursor: auto;
+  }
+
+  tbody .null-date:active {
+    background-color: #1e1f25;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
